@@ -22,7 +22,7 @@ tag v0.0.1
             - git branch jsondata  -> fetch에서 await response.data로 서버에서 작업들을 기다렸다가 데이터 응답을 받으면 데이터값을 보여줄 태그들을 생성하고 데이터값을 태그에 넣어서 보여줌.
             
     - (data) 
-        - basicData.json ->
+        - basicData.json -> git branch basicdata -> * fetch를 호출하는 함수로 get요청해서 가져올라하는데 문제가있음.
         - styleData.json -> script에서 fetch로 post요청했을 때 서버에서 응답한 데이터에 styleData.json 데이터도 넣어줘서
                             질문과 답에 대한 글씨에 스타일 값을 적용.
         - questionData.json -> 사용자가 input에 친 데이터값을 데이터에 저장
