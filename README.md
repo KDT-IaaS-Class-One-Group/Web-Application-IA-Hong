@@ -15,14 +15,11 @@ tag v0.0.1
         - html,css → gitbranch indexlayout → html레이아웃, css설정
         - js
             
-            →git branch JSopentoggle → 메뉴눌렀을 때 메뉴나오는 기능 추가 (addToggleClassOnClick 함수
-          
-            →git branch inputdata -> input의 데이터값 fetch를 사용하여 서버로 요청함 req.body값을 데이터로 서버에서 받음
-          
-            →git branch jsondata -> 서버에서 json데이터에 옮기는 작업과 json데이터에서 데이터를 뽑아오는 작업을 함
-                                  -> 서버에서 응답해줄 데이터를 정해줌.
-          
-            →git branch jsondata  -> fetch에서 await response.data로 서버에서 작업들을 기다렸다가 데이터 응답을 받으면 데이터값을 보여줄 태그들을 생성하고 데이터값을 태그에 넣어서 보여줌.
+            git branch JSopentoggle → 메뉴눌렀을 때 메뉴나오는 기능 추가 (addToggleClassOnClick 함수
+            git branch inputdata -> input의 데이터값 fetch를 사용하여 서버로 요청함 req.body값을 데이터로 서버에서 받음
+            git branch jsondata -> 서버에서 json데이터에 옮기는 작업과 json데이터에서 데이터를 뽑아오는 작업을 함
+                                  -> 서버에서 응답해줄 데이터를 정해줌         
+            git branch jsondata  -> fetch에서 await response.data로 서버에서 작업들을 기다렸다가 데이터 응답을 받으면 데이터값을 보여줄 태그들을 생성하고 데이터값을 태그에 넣어서 보여줌.
             
     - (data) 
         - basicData.json ->
